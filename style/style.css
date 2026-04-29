@@ -1,5 +1,5 @@
 .a {
-    background-color: rgb(28, 153, 255);
+    background-color: rgb(236, 233, 15);
     color:rgb(236, 233, 15);
     height: 250px;
     display: flex;
@@ -8,5 +8,23 @@
 }
 
 .b {
-    background-color: black;
+    background-color:rgb(28, 153, 255);
+}
+
+.c {
+    display: flex;
+    padding: 40;
+    justify-content: space-around;
+}
+
+#text {
+    color:rgb(231, 235, 23);font-size: 50px;font-family: Arial, Helvetica, sans-serif; filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.459));
+}
+
+#in {
+    border-radius: 10px;height: 590; border: 2px solid #000; filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.603));
+}
+
+#as {
+    height: 200;
 }
