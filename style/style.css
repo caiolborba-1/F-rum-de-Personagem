@@ -1,0 +1,12 @@
+.a {
+    background-color: rgb(28, 153, 255);
+    color:rgb(236, 233, 15);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.b {
+    background-color: black;
+}
