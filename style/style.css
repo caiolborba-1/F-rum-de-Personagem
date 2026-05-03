@@ -28,3 +28,12 @@
 #as {
     height: 200;
 }
+
+.sucesso{
+    color: green;
+}
+
+.erro{
+    color: red;
+}
+
