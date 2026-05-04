@@ -35,6 +35,9 @@ document.getElementById("form-login").onsubmit = (e) => {
 
         if (salva === senha) {
             mensagem.innerHTML = "<div class='sucesso'><p>Login com sucesso!</p></div>";
+            setTimeout(() => {
+                window.location.href = "../index.html"
+            }, 1000);
         } else {
             mensagem.innerHTML = "<div class='erro'><p>Dados incorretos!</p></div>";
         }
